@@ -1,4 +1,10 @@
-$("#nav-menu-icon").click(() => {
-    $(".menu").toggleClass('hidden');
-   
-})
+$(document).ready(function () {
+    $("#nav-menu-icon").click(function () {
+        $(".menu").toggleClass('visible');
+
+        // if($(".menu").hasClass('visible')){
+        //     $(".menu").removeClass('visible');
+
+        // }
+    });
+});
